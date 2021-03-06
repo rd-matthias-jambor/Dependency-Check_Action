@@ -13,7 +13,7 @@ inputs:
         required: true
 runs:
     using: 'docker'
-    image: 'docker://owasp/dependency-check-action:latest'
+    image: 'docker://grambulf/dependencycheck:latest'
     args:
 
         - '--project'
